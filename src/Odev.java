@@ -6,14 +6,12 @@ public class Odev {
         System.out.print("Sayı  : ");
         sayi=input.nextInt();
         while(sayi>0){
-
           if(sayi%3==0 && sayi%4==0){
               toplam+=sayi;
               sayac++;
           }
             sayi--;
-
-        } averange=toplam/sayac;
+     }  averange=toplam/sayac;
         System.out.print("Ortalama : "+averange);
     }
 }
